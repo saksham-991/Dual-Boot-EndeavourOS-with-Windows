@@ -17,7 +17,7 @@ The guide is designed to be comprehensive yet beginner-friendly, including scree
 
 ---
 
-# 📌 Key Features
+## 📌 Key Features
 
 Dual-boot setup with Windows
 
@@ -34,7 +34,7 @@ Ready for follow-up tutorials (Hyprland theming, performance tweaks)
 
 ---
 
-# ⚡ Benefits
+## ⚡ Benefits
 
 Ensures safe installation without data loss on Windows
 
@@ -49,7 +49,7 @@ Acts as a foundation for advanced tutorials (Hyprland setup, theming, performanc
 
 ## STEPS
 
-#1️⃣ Prepare Disk Space for EndeavourOS
+## 1️⃣ Prepare Disk Space for EndeavourOS
   
 1. Open Disk Management in Windows:
 
