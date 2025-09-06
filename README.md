@@ -1,4 +1,4 @@
-## Dual-Boot-EndeavourOS-with-Windows
+# Dual-Boot-EndeavourOS-with-Windows
 This repository provides a step-by-step guide to installing EndeavourOS alongside an existing Windows installation. It covers:
 
 Disk partitioning and preparation
@@ -17,7 +17,7 @@ The guide is designed to be comprehensive yet beginner-friendly, including scree
 
 ---
 
-📌 Key Features
+# 📌 Key Features
 
 Dual-boot setup with Windows
 
@@ -34,7 +34,7 @@ Ready for follow-up tutorials (Hyprland theming, performance tweaks)
 
 ---
 
-⚡ Benefits
+# ⚡ Benefits
 
 Ensures safe installation without data loss on Windows
 
@@ -76,7 +76,7 @@ Follow the wizard → leave defaults for filesystem type (will be handled during
 
 ---
 
-#2️⃣ Prepare Bootable USB with Ventoy
+## 2️⃣ Prepare Bootable USB with Ventoy
 
 1. Download Ventoy for Windows:
 
@@ -109,7 +109,7 @@ No special tools are needed; copying the ISO directly makes it bootable.
 
 ---
 
-#3️⃣ Boot into EndeavourOS Installer
+## 3️⃣ Boot into EndeavourOS Installer
 
 1. Reboot your computer and boot from the USB drive.
 
@@ -153,7 +153,7 @@ Root password (if requested)
 
 ---
 
-#4️⃣ Reboot and Update System
+## 4️⃣ Reboot and Update System
 
 1. After installation completes, reboot the laptop.
 
@@ -173,7 +173,7 @@ Root password (if requested)
 
 ---
 
-#✅ Notes
+# ✅ Notes
 
 Always back up important data before modifying partitions.
 
