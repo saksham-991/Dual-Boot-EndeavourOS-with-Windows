@@ -55,7 +55,7 @@ Acts as a foundation for advanced tutorials (Hyprland setup, theming, performanc
 
 Press Win + S → type Disk Management → open Create and format hard disk partitions.
 
-![Image Alt](https://github.com/saksham-991/Dual-Boot-EndeavourOS-with-Windows/blob/237b8cad794c844725c51f748693b7f6c72277b9/IMG_20250906_164821_287.jpg)
+![Image Alt](https://github.com/saksham-991/Dual-Boot-EndeavourOS-with-Windows/blob/d0db5457c2efe8102cac1697ef10e44797487412/images/IMG_20250906_164821_287.jpg)
 
 2. Identify the partition to shrink (usually your main Windows partition).
 
@@ -68,7 +68,7 @@ Enter 80000 MB (≈80 GB) as the size to shrink.
 
 Follow the wizard → leave defaults for filesystem type (will be handled during Linux installation).
 
-![ImageAlt](https://github.com/saksham-991/Dual-Boot-EndeavourOS-with-Windows/blob/33d336ebd8bef960acc59f4c768ce52a652f4893/IMG_20250906_164823_602.png)
+![ImageAlt](https://github.com/saksham-991/Dual-Boot-EndeavourOS-with-Windows/blob/d0db5457c2efe8102cac1697ef10e44797487412/images/IMG_20250906_164823_602.png)
 
 
 
@@ -91,7 +91,7 @@ Follow the wizard → leave defaults for filesystem type (will be handled during
 
 Go to Options → Partition Scheme → select GPT.
 
-![Image Alt](https://github.com/saksham-991/Dual-Boot-EndeavourOS-with-Windows/blob/33d336ebd8bef960acc59f4c768ce52a652f4893/IMG_20250906_164826_358.jpg)
+![Image Alt](https://github.com/saksham-991/Dual-Boot-EndeavourOS-with-Windows/blob/d0db5457c2efe8102cac1697ef10e44797487412/images/IMG_20250906_164826_358.jpg)
 
 4. Click Install to create a bootable USB.
 
@@ -105,8 +105,6 @@ Go to Options → Partition Scheme → select GPT.
 
 No special tools are needed; copying the ISO directly makes it bootable.
 
-![Image Alt](https://github.com/saksham-991/Dual-Boot-EndeavourOS-with-Windows/blob/33d336ebd8bef960acc59f4c768ce52a652f4893/IMG_20250906_164828_136.jpg)
-
 
 
 ---
@@ -118,7 +116,7 @@ No special tools are needed; copying the ISO directly makes it bootable.
 
 2. In the Ventoy menu, select the EndeavourOS ISO → After booting, choose Offline Installer in the popped up menu.
 
-![Image Alt](https://github.com/saksham-991/Dual-Boot-EndeavourOS-with-Windows/blob/d1838548b65f23ae5e7617e7a2d1783cacbe8c03/IMG_20250906_165958_028.jpg)
+![Image Alt](https://github.com/saksham-991/Dual-Boot-EndeavourOS-with-Windows/blob/d0db5457c2efe8102cac1697ef10e44797487412/images/IMG_20250906_165958_028.jpg)
 
 3. Proceed through the installation wizard:
 
@@ -167,7 +165,7 @@ Root password (if requested)
 
 
 
-'' sudo pacman -Syu ''
+   ''' sudo pacman -Syu '''
 
 4. This ensures your system is fully up-to-date.
 
