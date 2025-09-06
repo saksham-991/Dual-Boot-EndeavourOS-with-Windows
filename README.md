@@ -55,6 +55,8 @@ Acts as a foundation for advanced tutorials (Hyprland setup, theming, performanc
 
 Press Win + S → type Disk Management → open Create and format hard disk partitions.
 
+![Image Alt]https://github.com/saksham-991/Dual-Boot-EndeavourOS-with-Windows/blob/237b8cad794c844725c51f748693b7f6c72277b9/IMG_20250906_164821_287.jpg
+
 2. Identify the partition to shrink (usually your main Windows partition).
 
 3. Right-click the partition → select Shrink Volume.
@@ -66,7 +68,7 @@ Enter 80000 MB (≈80 GB) as the size to shrink.
 
 Follow the wizard → leave defaults for filesystem type (will be handled during Linux installation).
 
-[Add screenshot: unallocated space and new partition]
+![ImageAlt]
 
 
 
