@@ -91,7 +91,7 @@ Follow the wizard → leave defaults for filesystem type (will be handled during
 
 Go to Options → Partition Scheme → select GPT.
 
-![Image Alt}(https://github.com/saksham-991/Dual-Boot-EndeavourOS-with-Windows/blob/33d336ebd8bef960acc59f4c768ce52a652f4893/IMG_20250906_164826_358.jpg)
+![Image Alt](https://github.com/saksham-991/Dual-Boot-EndeavourOS-with-Windows/blob/33d336ebd8bef960acc59f4c768ce52a652f4893/IMG_20250906_164826_358.jpg)
 
 4. Click Install to create a bootable USB.
 
