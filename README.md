@@ -1,4 +1,4 @@
-# Dual-Boot-EndeavourOS-with-Windows
+## Dual-Boot-EndeavourOS-with-Windows
 This repository provides a step-by-step guide to installing EndeavourOS alongside an existing Windows installation. It covers:
 
 Disk partitioning and preparation
@@ -32,23 +32,6 @@ Structured documentation with screenshots
 Ready for follow-up tutorials (Hyprland theming, performance tweaks)
 
 
-
----
-
-🖼 Screenshots / Visuals
-
-Partitioning Windows disk → [Add screenshot: partition.png]
-
-Ventoy setup on USB → [Add screenshot: ventoy_setup.png]
-
-EndeavourOS ISO copied → [Add screenshot: iso_copied.png]
-
-Installer in progress → [Add screenshot: installation_progress.png]
-
-Updated system terminal → [Add screenshot: terminal_update.png]
-
-
-
 ---
 
 ⚡ Benefits
@@ -64,27 +47,20 @@ Acts as a foundation for advanced tutorials (Hyprland setup, theming, performanc
 
 
 
-# STEPS
+## STEPS
 
-1️⃣ Prepare Disk Space for EndeavourOS
-
+#1️⃣ Prepare Disk Space for EndeavourOS
+  
 1. Open Disk Management in Windows:
 
 Press Win + S → type Disk Management → open Create and format hard disk partitions.
 
-
-
 2. Identify the partition to shrink (usually your main Windows partition).
 
-
 3. Right-click the partition → select Shrink Volume.
-
 Enter 80000 MB (≈80 GB) as the size to shrink.
 
-
-
 4. After shrinking, a new unallocated space appears on the disk.
-
 
 5. Create a new partition in the unallocated space:
 
@@ -98,11 +74,11 @@ Follow the wizard → leave defaults for filesystem type (will be handled during
 
 ---
 
-2️⃣ Prepare Bootable USB with Ventoy
+#2️⃣ Prepare Bootable USB with Ventoy
 
 1. Download Ventoy for Windows:
 
-[Insert Ventoy Windows zip link here]
+[https://sourceforge.net/projects/ventoy/files/v1.1.07]
 
 
 
@@ -123,7 +99,7 @@ Go to Options → Partition Scheme → select GPT.
 
 5. Copy the EndeavourOS ISO to the USB drive:
 
-[Insert EndeavourOS ISO link here]
+[https://mirror.hyd.albony.in/endeavouros/iso/EndeavourOS_Mercury-Neo-2025.03.19.iso]
 
 No special tools are needed; copying the ISO directly makes it bootable.
 
@@ -131,11 +107,9 @@ No special tools are needed; copying the ISO directly makes it bootable.
 
 
 
-
-
 ---
 
-3️⃣ Boot into EndeavourOS Installer
+#3️⃣ Boot into EndeavourOS Installer
 
 1. Reboot your computer and boot from the USB drive.
 
@@ -183,7 +157,7 @@ Root password (if requested)
 
 ---
 
-4️⃣ Reboot and Update System
+#4️⃣ Reboot and Update System
 
 1. After installation completes, reboot the laptop.
 
@@ -195,7 +169,7 @@ Root password (if requested)
 
 
 
-sudo pacman -Syu
+'' sudo pacman -Syu ''
 
 4. This ensures your system is fully up-to-date.
 
@@ -207,22 +181,11 @@ sudo pacman -Syu
 
 ---
 
-✅ Notes
+#✅ Notes
 
 Always back up important data before modifying partitions.
 
-GPT partition scheme is recommended for UEFI systems.
-
-Screenshots are highly encouraged to illustrate each step for clarity.
-
-This installation sets a solid foundation for subsequent customization, theming, and performance tuning of EndeavourOS.
-
-
----
-
-📝 Notes
-
-Always back up important data before modifying partitions.
+GPT partition scheme is recommended for UEFI Systems.
 
 Screenshots are encouraged to make tutorials easier to follow.
 
