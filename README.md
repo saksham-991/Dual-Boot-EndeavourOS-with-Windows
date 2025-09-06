@@ -55,7 +55,7 @@ Acts as a foundation for advanced tutorials (Hyprland setup, theming, performanc
 
 Press Win + S → type Disk Management → open Create and format hard disk partitions.
 
-![Image Alt]https://github.com/saksham-991/Dual-Boot-EndeavourOS-with-Windows/blob/237b8cad794c844725c51f748693b7f6c72277b9/IMG_20250906_164821_287.jpg
+![Image Alt](https://github.com/saksham-991/Dual-Boot-EndeavourOS-with-Windows/blob/237b8cad794c844725c51f748693b7f6c72277b9/IMG_20250906_164821_287.jpg)
 
 2. Identify the partition to shrink (usually your main Windows partition).
 
