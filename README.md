@@ -165,7 +165,7 @@ Root password (if requested)
 
 
 
-   ''' sudo pacman -Syu '''
+   ` sudo pacman -Syu `
 
 4. This ensures your system is fully up-to-date.
 
