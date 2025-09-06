@@ -68,7 +68,7 @@ Enter 80000 MB (≈80 GB) as the size to shrink.
 
 Follow the wizard → leave defaults for filesystem type (will be handled during Linux installation).
 
-![ImageAlt]
+![ImageAlt](https://github.com/saksham-991/Dual-Boot-EndeavourOS-with-Windows/blob/33d336ebd8bef960acc59f4c768ce52a652f4893/IMG_20250906_164823_602.png)
 
 
 
@@ -91,7 +91,7 @@ Follow the wizard → leave defaults for filesystem type (will be handled during
 
 Go to Options → Partition Scheme → select GPT.
 
-
+![Image Alt}(https://github.com/saksham-991/Dual-Boot-EndeavourOS-with-Windows/blob/33d336ebd8bef960acc59f4c768ce52a652f4893/IMG_20250906_164826_358.jpg)
 
 4. Click Install to create a bootable USB.
 
@@ -105,7 +105,7 @@ Go to Options → Partition Scheme → select GPT.
 
 No special tools are needed; copying the ISO directly makes it bootable.
 
-[Add screenshot: ISO copied on USB]
+![Image Alt](https://github.com/saksham-991/Dual-Boot-EndeavourOS-with-Windows/blob/33d336ebd8bef960acc59f4c768ce52a652f4893/IMG_20250906_164828_136.jpg)
 
 
 
@@ -116,8 +116,9 @@ No special tools are needed; copying the ISO directly makes it bootable.
 1. Reboot your computer and boot from the USB drive.
 
 
-2. In the Ventoy menu, select the EndeavourOS ISO → choose Offline Installer.
+2. In the Ventoy menu, select the EndeavourOS ISO → After booting, choose Offline Installer in the popped up menu.
 
+![Image Alt](https://github.com/saksham-991/Dual-Boot-EndeavourOS-with-Windows/blob/d1838548b65f23ae5e7617e7a2d1783cacbe8c03/IMG_20250906_165958_028.jpg)
 
 3. Proceed through the installation wizard:
 
@@ -131,10 +132,7 @@ Select Manual Partitioning (or “Replace a Partition”).
 
 Choose the 80 GB partition you created earlier.
 
-Format it as ext4 (default).
-
-[Add screenshot: partition selection]
-
+Format it as ext4 (already selected).
 
 
 5. Configure user information:
@@ -150,8 +148,6 @@ Root password (if requested)
 
 
 6. Begin the installation process.
-
-[Add screenshot: installation progress]
 
 
 
@@ -174,10 +170,6 @@ Root password (if requested)
 '' sudo pacman -Syu ''
 
 4. This ensures your system is fully up-to-date.
-
-[Add screenshot: terminal showing update]
-
-
 
 
 
