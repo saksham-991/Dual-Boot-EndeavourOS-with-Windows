@@ -1,15 +1,15 @@
 # Dual-Boot-EndeavourOS-with-Windows
 This repository provides a step-by-step guide to installing EndeavourOS alongside an existing Windows installation. It covers:
 
-Disk partitioning and preparation
+-> Disk partitioning and preparation
 
-Creating a bootable USB using Ventoy
+-> Creating a bootable USB using Ventoy
 
-Running the EndeavourOS installer
+-> Running the EndeavourOS installer
 
-Initial system configuration (username, passwords, hostname)
+-> Initial system configuration (username, passwords, hostname)
 
-Post-install system update
+-> Post-install system update
 
 
 The guide is designed to be comprehensive yet beginner-friendly, including screenshots and detailed instructions for each step. Following this tutorial will provide a solid foundation for further customization, theming, and performance optimization on EndeavourOS.
@@ -19,15 +19,15 @@ The guide is designed to be comprehensive yet beginner-friendly, including scree
 
 ## 📌 Key Features
 
-Dual-boot setup with Windows
+-> Dual-boot setup with Windows
 
-GPT partitioning for UEFI systems
+-> GPT partitioning for UEFI systems
 
-USB preparation using Ventoy
+-> USB preparation using Ventoy
 
-Clean, easy-to-follow step instructions
+-> Clean, easy-to-follow step instructions
 
-Structured documentation with screenshots
+-> Structured documentation with screenshots
 
 Ready for follow-up tutorials (Hyprland theming, performance tweaks)
 
@@ -36,20 +36,20 @@ Ready for follow-up tutorials (Hyprland theming, performance tweaks)
 
 ## ⚡ Benefits
 
-Ensures safe installation without data loss on Windows
+-> Ensures safe installation without data loss on Windows
 
-Provides a professional, reproducible workflow
+-> Provides a professional, reproducible workflow
 
-Demonstrates knowledge of system installation and Linux basics
+-> Demonstrates knowledge of system installation and Linux basics
 
-Acts as a foundation for advanced tutorials (Hyprland setup, theming, performance tuning)
+-> Acts as a foundation for advanced tutorials (Hyprland setup, theming, performance tuning)
 
 
 
 
 ## STEPS
 
-## 1️⃣ Prepare Disk Space for EndeavourOS
+## Prepare Disk Space for EndeavourOS
   
 1. Open Disk Management in Windows:
 
@@ -66,7 +66,7 @@ Enter 80000 MB (≈80 GB) as the size to shrink.
 
 5. Create a new partition in the unallocated space:
 
-Follow the wizard → leave defaults for filesystem type (will be handled during Linux installation).
+> Follow the wizard → leave defaults for filesystem type (will be handled during Linux installation).
 
 ![ImageAlt](https://github.com/saksham-991/Dual-Boot-EndeavourOS-with-Windows/blob/d0db5457c2efe8102cac1697ef10e44797487412/images/IMG_20250906_164823_602.png)
 
@@ -91,11 +91,14 @@ Follow the wizard → leave defaults for filesystem type (will be handled during
 
 Go to Options → Partition Scheme → select GPT.
 
+> GPT is only for UEFI systems, choose MBR for Legacy BIOS systems. If unsure, Check your system is Legacy or UEFI by opening RunBox using Windows   + R in windows OS, And type ` msinfo32 ` , You will see a list of your system's details and find BIOS Type there.
+
 ![Image Alt](https://github.com/saksham-991/Dual-Boot-EndeavourOS-with-Windows/blob/d0db5457c2efe8102cac1697ef10e44797487412/images/IMG_20250906_164826_358.jpg)
 
 4. Click Install to create a bootable USB.
 
-⚠️ This will erase all data on the USB drive; ensure no important files are on it.
+
+_⚠️ This will erase all data on the USB drive; ensure no important files are on it._
 
 
 
@@ -106,7 +109,7 @@ Go to Options → Partition Scheme → select GPT.
 No special tools are needed; copying the ISO directly makes it bootable.
 
 
-
+> Now you can create a multi-OS USB drive. According to your USB Drive size, You can add as many ISOs of Operating systems you want, Be it Windows, Ubuntu, Zorin, Arch, Endeavour, etc. You can also keep some of your Normal data if you want but it is not recommended.
 ---
 
 ## 3️⃣ Boot into EndeavourOS Installer
@@ -126,23 +129,22 @@ Language selection → Keyboard layout → Region settings.
 
 4. Partition selection:
 
-Select Manual Partitioning (or “Replace a Partition”).
+-> Select Manual Partitioning (or “Replace a Partition”).
 
-Choose the 80 GB partition you created earlier.
+-> Choose the 80 GB partition you created earlier.
 
-Format it as ext4 (already selected).
+-> Format it as ext4 (already selected).
 
 
 5. Configure user information:
 
-Computer name
+-> Computer name
 
-Username
+-> Username
 
-Password
+-> Password
 
-Root password (if requested)
-
+-> Root password
 
 
 6. Begin the installation process.
@@ -175,7 +177,7 @@ Root password (if requested)
 
 # ✅ Notes
 
-Always back up important data before modifying partitions.
+**Always back up important data before modifying partitions.**
 
 GPT partition scheme is recommended for UEFI Systems.
 
